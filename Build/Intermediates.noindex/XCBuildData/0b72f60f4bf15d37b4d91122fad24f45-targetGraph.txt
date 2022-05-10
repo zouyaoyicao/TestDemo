@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+TestLib in Pods, no dependencies
+Pods-ZYDemo in Pods, depends on:
+TestLib in Pods (explicit)
+ZYDemo in ZYDemo, depends on:
+Pods-ZYDemo in Pods (implicit dependency via file 'libPods-ZYDemo.a' in build phase 'Link Binary')
+TestLib in Pods (implicit dependency via options '-lTestLib' in build setting 'OTHER_LDFLAGS')

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "3b2491c165873a9573af7efd6bfdfaadcc5ce0bf2b7af387ab5b5efe334748c7"
+build_start_time: [1652161245, 172904014]
+build_end_time: [1652161250, 548248052]
+inputs:
+  "/Users/zouyaoyicao/Documents/SwiftCode/ZYDemo/Libs/TestLib/TestLib/Classes/TestForMySelf.swift": [1652160491, 883881568]

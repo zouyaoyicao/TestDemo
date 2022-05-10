@@ -1,0 +1,6 @@
+module Pods_ZYDemo {
+  umbrella header "Pods-ZYDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

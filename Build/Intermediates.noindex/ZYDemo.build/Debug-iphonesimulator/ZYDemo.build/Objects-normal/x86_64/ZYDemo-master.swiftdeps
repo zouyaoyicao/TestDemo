@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "2d8c4759d65d0987f760fec43ef40b664f232dd4e240691e6132f4dcdd34c865"
+build_start_time: [1652161255, 600040912]
+build_end_time: [1652161260, 374710083]
+inputs:
+  "/Users/zouyaoyicao/Documents/SwiftCode/ZYDemo/ZYDemo/AppDelegate.swift": [1652159048, 413017988]
+  "/Users/zouyaoyicao/Documents/SwiftCode/ZYDemo/ZYDemo/SceneDelegate.swift": [1652159048, 419110774]
+  "/Users/zouyaoyicao/Documents/SwiftCode/ZYDemo/ZYDemo/ViewController.swift": [1652161244, 765827655]

@@ -1,0 +1,12 @@
+module TestLib {
+  umbrella header "TestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module TestLib.Swift {
+  header "/Users/zouyaoyicao/Documents/SwiftCode/ZYDemo/Build/Products/Debug-iphonesimulator/TestLib/Swift Compatibility Header/TestLib-Swift.h"
+  requires objc
+}

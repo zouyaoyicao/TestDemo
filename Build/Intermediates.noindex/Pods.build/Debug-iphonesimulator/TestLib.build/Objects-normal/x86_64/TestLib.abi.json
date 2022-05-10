@@ -1,0 +1,83 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TestLib"
+    },
+    {
+      "kind": "Import",
+      "name": "TestLib",
+      "printedName": "TestLib",
+      "declKind": "Import",
+      "moduleName": "TestLib",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TestLib"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TestForMySelf",
+      "printedName": "TestForMySelf",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "testFunc",
+          "printedName": "testFunc()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7TestLib0A9ForMySelfC8testFuncyyFZ",
+          "mangledName": "$s7TestLib0A9ForMySelfC8testFuncyyFZ",
+          "moduleName": "TestLib",
+          "static": true,
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TestForMySelf",
+              "printedName": "TestLib.TestForMySelf",
+              "usr": "s:7TestLib0A9ForMySelfC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:7TestLib0A9ForMySelfCACycfc",
+          "mangledName": "$s7TestLib0A9ForMySelfCACycfc",
+          "moduleName": "TestLib",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:7TestLib0A9ForMySelfC",
+      "mangledName": "$s7TestLib0A9ForMySelfC",
+      "moduleName": "TestLib",
+      "isOpen": true,
+      "hasMissingDesignatedInitializers": true
+    }
+  ],
+  "json_format_version": 6
+}
